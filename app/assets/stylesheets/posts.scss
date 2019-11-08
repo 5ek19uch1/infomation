@@ -1,6 +1,18 @@
-.main-header{
-  width: 80%;
-  height: 25%;
-  background-color: rgb(124, 122, 122);
+.main-index{
   margin: 0 auto;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.main-header{
+  height: 250px;
+  background-color: rgb(124, 122, 122);
+}
+
+.main-contents-container{
+  display: flex;
+  margin: 100px auto;
+  a{
+    margin: 0 10px;
+  }
 }
