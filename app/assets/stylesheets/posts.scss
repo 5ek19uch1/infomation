@@ -7,13 +7,25 @@
 .main-header{
   height: 250px;
   background-color: rgb(124, 122, 122);
+  .fa-search{
+    font-size: 30px;
+    color: white;
+  }
 }
 
 .main-contents-container{
-  display: flex;
-  margin: 100px auto;
+  display: flex-center;
+  margin: 0 auto;
+
   a{
     margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+  }
+  a:hover{
+    background-color: black;
+    color: rgb(124,122,122);
   }
 }
 
