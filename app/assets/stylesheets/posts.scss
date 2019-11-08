@@ -6,14 +6,20 @@
 }
 
 .main-header{
-  height: 250px;
+  height: auto;
   background-color: rgb(124, 122, 122);
-  .fas{
+  padding: 40px 0 0 0;
+  .logo{
+    width: 350px;
     margin: 0 auto;
   }
-  .fa-search{
+  .icons{
+    width: 100px;
+    margin: 0 0 0 auto;
+  }
+  .fas{
     font-size: 30px;
-    color: white;
+    margin: 5px;
   }
 }
 
@@ -32,13 +38,18 @@
     color: rgb(124,122,122);
   }
 }
-
 .slider-container{
   margin: 0 auto;
   width: 100%;
-
+}
+.slider-image{
+  width: 100%;
+  margin: 0 auto;
 }
 
-.slider-image{
-  margin: 0 auto;
+.contents-box{
+  width: 25%;
+  height: 300px;
+  background-color: black;
+  border: solid thin #ffffff;
 }
