@@ -1,12 +1,16 @@
 .main-index{
   margin: 0 auto;
-  width: 80%;
+  width: 924px;
+  max-width: 924px;
   box-sizing: border-box;
 }
 
 .main-header{
   height: 250px;
   background-color: rgb(124, 122, 122);
+  .fas{
+    margin: 0 auto;
+  }
   .fa-search{
     font-size: 30px;
     color: white;
@@ -14,14 +18,14 @@
 }
 
 .main-contents-container{
-  display: flex-center;
+  width: auto;
   margin: 0 auto;
-
+  text-align: center;
   a{
     margin: 0 10px;
     text-decoration: none;
     color: black;
-    font-weight: 900;
+    font-weight: 600;
   }
   a:hover{
     background-color: black;
