@@ -1,0 +1,40 @@
+// タブレット用ブレイクポイント-------- */
+@media(max-width: 1000px){
+  .main-header{
+    font-size:13px;
+    .logo{
+    }
+  }
+
+  .contents-container{
+    .contents-box{
+      width: 50%;
+  }
+}
+}
+
+// スマホ用ブレイクポイント----------- */
+@media(max-width: 900px){
+.main-header{
+  .logo{
+    width: 60%;
+  }
+}
+.main-menu-list{
+  display: none;
+}
+.fa-envelope{
+  display:none;
+}
+
+.fa-bars{
+  display: block;
+}
+.contents-container{
+  width: 100%;
+}
+.contents-box{
+  width: 100%;
+}
+
+}

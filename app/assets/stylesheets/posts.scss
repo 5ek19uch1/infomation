@@ -1,89 +1,40 @@
 // 変数----------------------------
 $BGC: #f7f7f7;
 
-// タブレット用ブレイクポイント--------
-@media(max-width: 1000px){
-    .main-header{
-      width: 50%;
-      font-size: 12px;
-    }
-
-    .slider-container{
-      width: 50%;
-      .slider-image{
-        width: 50%;
-      }
-    }
-    .contents-container{
-      .contents-box{
-        width: 50%;
-    }
-  }
-}
-
-// スマホ用ブレイクポイント-----------
-@media(max-width: 670px){
-  .main-header{
-    width: 25%;
-  }
-  .main-menu-list{
-    display: none;
-  }
-  .far{
-    display:none;
-  }
-
-  .menu-icon{
-    display: block;
-  }
-
-}
 //--------------------------------
-
 *{
   box-sizing: border-box;
+  background-color: $BGC;
 }
-
+//--------------------------------
 .main-index{
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
 }
 
 .main-header{
   height: auto;
   background-color: $BGC;
-  padding: 15px 0 0 0;
+  padding: 25px 0 0 0;
   margin: 0 0 15px 0;
   .logo{
     display: block;
     width: 30%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
   }
-  .icons{
-    width: 100px;
-    margin: 0 0 0 auto;
-  }
-  .fas, .far {
-    font-size: 20px;
-    margin: 0 0 0 10px;
-    text-decoration: none;
-    color: black;
-  }
-  .far:hover{
-    background-color: black;
-    color: $BGC;
-  }
+
 }
-.menu-icon{
-  color: white;
-  float: right;
+//スマホ表示用----------
+.fa-bars{
+  text-align: center;
   font-size: 25px;
-  padding: 21px 0;
+  // padding: 21px 0;
   display: none;
 }
+//--------------------
 
 .main-menu-list{
-  width: auto;
+  width: 100%;
   margin: 15px auto;
   text-align: center;
   .contents-title{
@@ -93,6 +44,7 @@ $BGC: #f7f7f7;
     font-weight: 600;
     transition: 0.3s;
     padding: 0 3px;
+    letter-spacing: 1px;
   }
   .contents-title:hover{
     background-color: black;
@@ -109,9 +61,8 @@ $BGC: #f7f7f7;
 }
 // -------------------------------------------
 .contents-container{
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-
   .contents-box{
     padding : 2px;
     width: 25%;
@@ -119,9 +70,6 @@ $BGC: #f7f7f7;
     background-color: $BGC;
     transition: 0.3s;
     border: solid 2px white;
-  .contents-box:hover{
-    opacity: 0.8
-  }
     .thums{
       display:block;
       height: 80%;
@@ -130,17 +78,14 @@ $BGC: #f7f7f7;
   }
 }
 
-
-
-
-
 .footer{
   margin: 10px 0 0 0;
   background-color: $BGC;
-  height: 300px;
+  height: auto;
   p{
     font-size: 5px;
     text-align:center;
+
   }
 
 }
