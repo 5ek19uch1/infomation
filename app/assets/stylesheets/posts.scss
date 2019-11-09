@@ -5,6 +5,7 @@ $BGC: #f7f7f7;
 @media(max-width: 1000px){
     .main-header{
       width: 50%;
+      font-size: 12px;
     }
 
     .slider-container{
@@ -25,6 +26,17 @@ $BGC: #f7f7f7;
   .main-header{
     width: 25%;
   }
+  .main-menu-list{
+    display: none;
+  }
+  .far{
+    display:none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
 }
 //--------------------------------
 
@@ -62,6 +74,14 @@ $BGC: #f7f7f7;
     color: $BGC;
   }
 }
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .main-menu-list{
   width: auto;
   margin: 15px auto;
