@@ -6,15 +6,24 @@ $BGC: #f7f7f7;
     .main-header{
       width: 50%;
     }
+
+    .slider-container{
+      width: 50%;
+      .slider-image{
+        width: 50%;
+      }
+    }
+    .contents-container{
+      .contents-box{
+        width: 50%;
+    }
   }
+}
 
 // スマホ用ブレイクポイント-----------
 @media(max-width: 670px){
   .main-header{
     width: 25%;
-  }
-  .contents-box{
-    width: 50%;
   }
 }
 //--------------------------------
@@ -78,11 +87,11 @@ $BGC: #f7f7f7;
   width: 100%;
   margin: 0 auto;
 }
-// ---------------------
+// -------------------------------------------
 .contents-container{
   display:flex;
   flex-wrap: wrap;
-  
+
   .contents-box{
     padding : 2px;
     width: 25%;
