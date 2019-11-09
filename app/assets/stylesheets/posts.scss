@@ -1,10 +1,26 @@
+// 変数----------------------------
 $BGC: #f7f7f7;
 
+// タブレット用ブレイクポイント--------
+@media(max-width: 1000px){
+    .main-header{
+      width: 50%;
+    }
+  }
+
+// スマホ用ブレイクポイント-----------
+@media(max-width: 670px){
+  .main-header{
+    width: 25%;
+  }
+}
+
+//--------------------------------
 
 .main-index{
   margin: 0 auto;
   width: 924px;
-  max-width: 924px;
+  // max-width: 924px;
   box-sizing: border-box;
 }
 
@@ -26,6 +42,11 @@ $BGC: #f7f7f7;
     font-size: 20px;
     margin: 0 0 0 10px;
     text-decoration: none;
+    color: black;
+  }
+  .far:hover{
+    background-color: black;
+    color: $BGC;
   }
 }
 .main-menu-list{
