@@ -33,39 +33,8 @@ $BGC: #f7f7f7;
 }
 //--------------------
 
-.main-menu-list{
-  width: 100%;
-  margin: 15px auto;
-  text-align: center;
-  .contents-title{
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    transition: 0.3s;
-    padding: 0 3px;
-    letter-spacing: 1px;
-  }
-  .contents-title:hover{
-    background-color: black;
-    color: $BGC;
-  }
-}
-// --------------------------
-#g_menu {
-  /*中略*/
-  transition: right 1s;
-  position: fixed;
-  top: 0;
-}
+//hambarger
 
-.outside {
-    right: -100%;
-}
-
-.inside {
-    right: 0;
-}
 // -------------------------------------------
 .contents-container{
   display: flex;
