@@ -33,7 +33,32 @@ $BGC: #f7f7f7;
 }
 //--------------------
 
-//hambarger
+.main-menu-list{
+  width: 100%;
+  margin: 15px auto;
+  text-align: center;
+  .contents-title{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+    padding: 0 3px;
+    letter-spacing: 1px;
+  }
+  .contents-title:hover{
+    background-color: black;
+    color: $BGC;
+  }
+}
+.slider-container{
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+.slider-image{
+  width: 100%;
+  margin: 0 auto;
+}
 
 // -------------------------------------------
 .contents-container{
