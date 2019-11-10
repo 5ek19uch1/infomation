@@ -66,21 +66,6 @@ $BGC: #f7f7f7;
 }
 
 /*メニューアイコン部分は疑似要素で*/
-#ham-menu::before {
-  background-color: #fff; /*ボタン部分背景色*/
-  border-radius: 0 0 0 10px; /*左下角丸*/
-  color: #333; /*アイコン（フォント）色*/
-  content: "≡"; /*メニューアイコン*/
-  display: block;
-  font-size: 50px; /*アイコン（フォント）サイズ*/
-  height: 50px;
-  line-height: 50px; /*縦位置中央化*/
-  position: absolute;
-  right: 100%;
-  text-align: center;
-  top: 0;
-  width: 50px;
-}
 
 #ham-menu {
   position: relative;
