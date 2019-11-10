@@ -53,7 +53,7 @@ $BGC: #f7f7f7;
 }
 // --------------------------
 #ham-menu {
-  background-color: #fff; /*メニュー背景色*/
+  background-color: $BGC; /*メニュー背景色*/
   box-sizing: border-box;
   height: 100%;
   padding: 10px 40px; /*メニュー内部上下左右余白*/
@@ -97,12 +97,12 @@ $BGC: #f7f7f7;
 }
 
 /*hover 時の処理*/
-#ham-menu:hover {
+#ham-menu:active {
   transform: translate(-300px); /*メニュー横幅①と合わせる*/
 }
 
-#ham-menu:hover + #menu-background {
-  opacity: 0.5; /*黒背景部分透過度*/
+#ham-menu:active + #menu-background {
+  opacity: 0.7; /*黒背景部分透過度*/
   z-index: 999;
 }
 
