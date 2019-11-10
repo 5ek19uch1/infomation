@@ -1,5 +1,6 @@
-<div class = "main-index">
+<div class = "main-wrapper">
 
+<%# ----------header---------- %>
   <div class = "main-header">
     <div class = "icons">
     </div>
@@ -17,13 +18,17 @@
     </div>
     <a class="fas fa-bars menu-icon"></a>
   </div>
+<%# -----------header---------- %>
 
+<%# ----------slider---------- %>
   <div class = "slider-container">
     <%= image_tag("superportfolio.png", class: "slider-image") %>
   </div>
 
   <div class = "contents-container">
+<%# ----------slider----------- %>
 
+<%# ----------main-contents---------- %>
     <div class = "contents-box">
       <%= image_tag("DOD.png", class: "thums") %>
       <h5>comments-comments</h5>
@@ -56,11 +61,9 @@
       <%= image_tag("and_premium.jpg", class: "thums") %>
       <h5>comments-comments</h5>
     </div>
-    
-
   </div>
+<%# ----------main-contents---------- %>
 
-  <div class = "footer">
-    <p>Copyright © 2019 Tatsuya Sekiguchi All Rights Reserved.</p>
-  </div>
+  <%= render partial:"shared/footer" %>
+
 </div>
