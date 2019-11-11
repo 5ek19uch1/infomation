@@ -1,8 +1,5 @@
-<script>
-$(function() {
- $('.navbar_toggle').on('click', function () {
-  $(this).toggleClass('open');
-  $('.menu').toggleClass('open');
- });
+$(function(){
+  $('.fa-bars').click(function(){
+    $('.ham-menu').fadeIn();
+  });
 });
-</script>
