@@ -1,5 +1,8 @@
 $('turbolinks:load',function() {
   $('.fa-bars').click(function() {
-    $('.ham-menu').fadeIn('slow');
+    $('.ham-menu').show();
+  });
+  $('.close-modal').click(function(){
+    $('.ham-menu').fadeOut();
   });
 });
