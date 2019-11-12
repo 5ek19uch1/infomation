@@ -34,11 +34,13 @@ ol, ul{
 
 }
 //スマホ表示用----------
-.fa-bars{
-  text-align: center;
+#hamburger{
+  display:none;
+}
+.menu-icon{
+  display: block;
+  margin: 0 auto;
   font-size: 25px;
-  // padding: 21px 0;
-  display: none;
 }
 //--------------------
 
@@ -121,7 +123,7 @@ ol, ul{
     background-color: #e6ecf0;
     padding: 20px 0 40px;
     border-radius: 10px;
-    width: 450px;
+    width: auto;
     height: auto;
     text-align: center;
   }
