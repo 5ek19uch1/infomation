@@ -1,6 +1,6 @@
-$('turbolinks:load',function() {
+$(function() {
   $('.fa-bars').click(function() {
-    $('.ham-menu').show();
+    $('.ham-menu').fadeIn();
   });
   $('.close-modal').click(function(){
     $('.ham-menu').fadeOut();
