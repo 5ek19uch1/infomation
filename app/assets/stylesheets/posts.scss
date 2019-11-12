@@ -5,6 +5,7 @@ $BGC: #f7f7f7;
 *{
   box-sizing: border-box;
   background-color: $BGC;
+  font-family: sans-serif;
 }
 
 a{
@@ -79,7 +80,7 @@ ol, ul{
     background-color:$BGC;
     padding: 20px 0 40px;
     border-radius: 10px;
-    width: 30%;
+    width: 50%;
     height: auto;
     text-align: center;
     margin: 0 auto;
