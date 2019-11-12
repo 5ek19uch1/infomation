@@ -39,16 +39,10 @@ ol, ul{
 }
 .menu-icon{
   display: block;
-  margin: 0 auto;
+  margin: 0 50%;
   font-size: 25px;
 }
 //--------------------
-
-//--------------------------
-
-//hamburger
-
-
 //--------------------------
 
 .main-menu-list{
@@ -69,6 +63,50 @@ ol, ul{
     color: $BGC;
   }
 }
+//--------------------------
+
+
+.ham-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  display: none;
+  .modal{
+    background-color:$BGC;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  // -----------------------
+  .fa-times {
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+}
+.ul{
+  width: auto;
+}
+.contents-title-modal{
+  letter-spacing: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+//--------------------------
 .slider-container{
   margin: 0 0 10px 0;
   width: 100%;
@@ -110,29 +148,3 @@ ol, ul{
 }
 
 // ---------------------------------
-.ham-menu{
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 10;
-  display: none;
-  .modal{
-    background-color: #e6ecf0;
-    padding: 20px 0 40px;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    text-align: center;
-  }
-  // -----------------------
-  .fa-times {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    color: rgba(128, 128, 128, 0.46);
-    cursor: pointer;
-  }
-}
