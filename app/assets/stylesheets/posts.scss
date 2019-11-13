@@ -1,7 +1,6 @@
 // 変数----------------------------
 $BGC: #f7f7f7;
-
-//--------------------------------
+//-----FMT-----------------------
 *{
   box-sizing: border-box;
   background-color: $BGC;
@@ -16,7 +15,8 @@ a{
 ol, ul{
   list-style:none;
 }
-//--------------------------------
+
+//---------header--------------------
 .main-wrapper{
   margin: 0 auto;
   width: 70%;
@@ -32,8 +32,8 @@ ol, ul{
     width: 30%;
     margin: 0 auto 20px;
   }
-
 }
+
 //スマホ表示用----------
 #hamburger{
   display:none;
@@ -43,8 +43,7 @@ ol, ul{
   margin: 0 50%;
   font-size: 25px;
 }
-//--------------------
-//--------------------------
+//---gloval_navi------------
 
 .main-menu-list{
   width: 100%;
@@ -64,9 +63,8 @@ ol, ul{
     color: $BGC;
   }
 }
-//--------------------------
 
-
+//---hamburger_menu--------------
 .ham-menu{
   position: fixed;
   top: 0;
@@ -85,16 +83,12 @@ ol, ul{
     text-align: center;
     margin: 0 auto;
   }
-  // -----------------------
   .fa-times {
     top: 12px;
     right: 12px;
     color: rgba(128, 128, 128, 0.46);
     cursor: pointer;
   }
-}
-.ul{
-  width: auto;
 }
 .contents-title-modal{
   letter-spacing: 2px;
@@ -104,12 +98,7 @@ ol, ul{
   font-weight: 600px;
 }
 
-
-
-
-
-
-//--------------------------
+//slider--------------------------
 .slider-container{
   margin: 0 0 10px 0;
   width: 100%;
@@ -119,7 +108,7 @@ ol, ul{
   margin: 0 auto;
 }
 
-// -------------------------------------------
+// contents--------------------------------
 .contents-container{
   display: flex;
   flex-wrap: wrap;
@@ -150,4 +139,38 @@ ol, ul{
   }
 }
 
-// ---------------------------------
+// return_to_top----------------------
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #1a1a1b;
+  opacity: 0.8;
+  border-radius: 50%;
+  display: none;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
