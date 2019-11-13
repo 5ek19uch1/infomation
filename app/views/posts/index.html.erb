@@ -18,11 +18,10 @@
       <span class="fas fa-bars menu-icon" href = "#"></span>
     </div>
   </div>
-<%# -----------header---------- %>
 
-<%# hamburger %>
+
+<%# hamburger-modal------------------------------------------------- %>
     <div class = "ham-menu" id = "ham-menu">
-      <%# <div  lass = "modal"></div> %>
       <div class="modal">
         <div class = "colse-modal">
           <i class="fa fa-2x fa-times"></i>
@@ -38,17 +37,14 @@
     </div>
 
 
-<%# hamburger %>
-
-<%# ----------slider---------- %>
+<%# ----------slider---------- --------------------------------------%>
   <div class = "slider-container">
     <%= image_tag("superportfolio.png", class: "slider-image") %>
   </div>
 
-  <div class = "contents-container">
-<%# ----------slider----------- %>
 
-<%# ----------main-contents---------- %>
+<%# ----------main-contents------------------------------------------ %>
+  <div class = "contents-container">
     <div class = "contents-box">
       <%= image_tag("DOD.png", class: "thums") %>
       <h5>comments-comments</h5>
@@ -82,13 +78,13 @@
       <h5>comments-comments</h5>
     </div>
   </div>
-<%# ----------main-contents---------- %>
 
-<%# ---------return_to_top----------- %>
+<%# ---------return_to_top_button------------------------------------ %>
 <div id="page_top"><a href="#"></a></div>
-<%# -------------- %>
 
 
+<%# footer-------------- %>
   <%= render partial:"shared/footer" %>
+
 
 </div>

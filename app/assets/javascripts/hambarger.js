@@ -1,3 +1,5 @@
+
+//modal_menu---------------------------------
 $(function() {
   $('.menu-icon').click(function() {
     $('#ham-menu').fadeIn();
@@ -8,7 +10,8 @@ $(function() {
 });
 
 
-jQuery(function() {
+//Return_to_top_button-----------------------
+$(function() {
   var pagetop = $('#page_top');
   pagetop.hide();
   $(window).scroll(function () {
