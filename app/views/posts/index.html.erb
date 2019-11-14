@@ -1,32 +1,13 @@
 <div class = "main-wrapper">
-
 <%# ----------header---------- %>
-  <div class = "main-header">
-    <div class = "icons">
-      <%= image_tag("$ek19uch12.png", class: "logo") %>
-    </div>
-    <nav class = "main-menu-list">
-      <a href = "#" class = "contents-title">ALL</a>
-      <a href = "#" class = "contents-title">MUSIC</a>
-      <a href = "#" class = "contents-title">DESIGN</a>
-      <a href = "#" class = "contents-title">RIDER</a>
-      <a href = "#" class = "contents-title">DIGITAL</a>
-      <a href = "#" class = "contents-title">ABOUT</a>
-      <a href = "#" class = "contents-title">CONTACT</a>
-    </nav>
-    <div id = "hamburger">
-      <span class="fas fa-bars menu-icon" href = "#"></span>
-    </div>
-  </div>
-
-
+  <%= render partial:"shared/header" %>
 <%# hamburger-modal------------------------------------------------- %>
     <div class = "ham-menu" id = "ham-menu">
       <div class="modal">
         <div class = "colse-modal">
           <i class="fa fa-2x fa-times"></i>
         </div>
-          <a href = "#" class = "contents-title-modal">ALL</a>
+          <a href = "/" class = "contents-title-modal">ALL</a>
           <a href = "#" class = "contents-title-modal">MUSIC</a>
           <a href = "#" class = "contents-title-modal">DESIGN</a>
           <a href = "#" class = "contents-title-modal">RIDER</a>

@@ -1,17 +1,17 @@
   <div class = "main-header">
     <div class = "icons">
+      <%= image_tag("$ek19uch12.png", class: "logo") %>
     </div>
-    <%= image_tag("$ek19uch12.png", class: "logo") %>
-    <div class = "main-menu-list">
-      <a href = "/index" class = "contents-title">ALL</a>
-      <a href = "posts/show" class = "contents-title">MUSIC</a>
+    <nav class = "main-menu-list">
+      <a href = "/" class = "contents-title">ALL</a>
+      <a href = "#" class = "contents-title">MUSIC</a>
       <a href = "#" class = "contents-title">DESIGN</a>
       <a href = "#" class = "contents-title">RIDER</a>
       <a href = "#" class = "contents-title">DIGITAL</a>
       <a href = "#" class = "contents-title">ABOUT</a>
       <a href = "#" class = "contents-title">CONTACT</a>
-      <%# <a href = "#" class="fas fa-search contents-title" ></a>
-      <a href = "#" class="far fa-envelope contents-title"></a> %>
+    </nav>
+    <div id = "hamburger">
+      <span class="fas fa-bars menu-icon" href = "#"></span>
     </div>
-    <a class="fas fa-bars menu-icon"></a>
   </div>
