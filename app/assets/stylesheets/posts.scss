@@ -5,6 +5,7 @@ $BGC: #f7f7f7;
   box-sizing: border-box;
   background-color: $BGC;
   font-family: sans-serif;
+  letter-spacing: 1px;
 }
 
 a{
@@ -19,7 +20,7 @@ ol, ul{
 //---------header--------------------
 .main-wrapper{
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
 }
 
 .main-header{
@@ -29,7 +30,7 @@ ol, ul{
   margin: 0 0 15px 0;
   .logo{
     display: block;
-    width: 30%;
+    width: 50%;
     margin: 0 auto 20px;
   }
 }
