@@ -1,7 +1,12 @@
 // タブレット用ブレイクポイント-------- */
-@media(max-width: 1000px){
+@media(max-width: 1200px){
+
+}
+
+
+@media(max-width: 1200px){
   .main-header{
-    font-size:13px;
+    font-size: 0.8rem;
     .logo{
     }
   }
@@ -9,17 +14,9 @@
   .contents-container{
     .contents-box{
       width: 50%;
-  }
-}
-}
+      }
+    }
 
-// スマホ用ブレイクポイント----------- */
-@media(max-width: 900px){
-.main-header{
-  .logo{
-    width: 70%;
-  }
-  }
   .main-menu-list{
     display: none;
   }
@@ -30,5 +27,18 @@
   #hamburger{
     display: block;
   }
+
+
+
+}
+
+// スマホ用ブレイクポイント----------- */
+@media(max-width: 900px){
+.main-header{
+  .logo{
+    width: 70%;
+  }
+  }
+
 
 }

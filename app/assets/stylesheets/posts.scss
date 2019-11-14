@@ -20,7 +20,7 @@ ol, ul{
 //---------header--------------------
 .main-wrapper{
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
 }
 
 .main-header{
@@ -55,9 +55,9 @@ ol, ul{
     text-decoration: none;
     color: black;
     font-weight: 600;
+    font-size: 1.3rem;
     transition: 0.3s;
     padding: 0 3px;
-    letter-spacing: 1px;
   }
   .contents-title:hover{
     background-color: black;
