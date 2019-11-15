@@ -2,20 +2,7 @@
 <%# ----------header---------- %>
   <%= render partial:"shared/header" %>
 <%# hamburger-modal------------------------------------------------- %>
-    <div class = "ham-menu" id = "ham-menu">
-      <div class="modal">
-        <div class = "colse-modal">
-          <i class="fa fa-2x fa-times"></i>
-        </div>
-          <a href = "/" class = "contents-title-modal">ALL</a>
-          <a href = "#" class = "contents-title-modal">MUSIC</a>
-          <a href = "#" class = "contents-title-modal">DESIGN</a>
-          <a href = "#" class = "contents-title-modal">RIDER</a>
-          <a href = "#" class = "contents-title-modal">DIGITAL</a>
-          <a href = "#" class = "contents-title-modal">ABOUT</a>
-          <a href = "#" class = "contents-title-modal">CONTACT</a>
-      </div>
-    </div>
+  <%= render partial:"shared/hamburger"%>
 
 
 <%# ----------slider---------- --------------------------------------%>
@@ -61,7 +48,7 @@
   </div>
 
 <%# ---------return_to_top_button------------------------------------ %>
-<div id="page_top"><a href="#"></a></div>
+
 
 
 <%# footer-------------- %>
