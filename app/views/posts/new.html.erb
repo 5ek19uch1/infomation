@@ -1,9 +1,10 @@
 <div class="form">
-    <%= form_tag("/posts/create") do %>
+    <%= form_tag("/posts/create") do%>
       <div class="form-body">
         <textarea name = "main_title">main_title</textarea>
         <textarea name = "sub_title">sub_title</textarea>
         <textarea name = "content">content</textarea>
+        <%# <%= f.label "画像をアップロード" %><br><%= f.file_field :image %> %>
         <input type="submit" value="投稿">
       </div>
     <% end %>
